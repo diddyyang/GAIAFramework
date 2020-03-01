@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DictionaryItemPickerView"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DictionaryItemPickerView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" placeholder="过滤..." translatesAutoresizingMaskIntoConstraints="NO" id="5fq-aV-sfw">
+                    <rect key="frame" x="0.0" y="44" width="375" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="XyE-Le-L2Y"/>
+                    </constraints>
+                    <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                    <scopeButtonTitles>
+                        <string>Title</string>
+                        <string>Title</string>
+                    </scopeButtonTitles>
+                    <connections>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="i50-7y-roa"/>
+                    </connections>
+                </searchBar>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FH7-M5-ZxW">
+                    <rect key="frame" x="0.0" y="597" width="375" height="70"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jYX-fc-M9T">
+                            <rect key="frame" x="8" y="0.0" width="31" height="30"/>
+                            <state key="normal" title="返回"/>
+                            <connections>
+                                <action selector="goBack:" destination="iN0-l3-epB" eventType="touchUpInside" id="C3U-YH-9GY"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qyQ-Bx-JPh">
+                            <rect key="frame" x="321" y="0.0" width="46" height="30"/>
+                            <state key="normal" title="确定"/>
+                            <state key="disabled" title="请选择"/>
+                            <connections>
+                                <action selector="confirmChoose:" destination="iN0-l3-epB" eventType="touchUpInside" id="4dk-n7-hna"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="qyQ-Bx-JPh" firstAttribute="top" secondItem="FH7-M5-ZxW" secondAttribute="top" id="68b-O7-FW8"/>
+                        <constraint firstItem="jYX-fc-M9T" firstAttribute="top" secondItem="FH7-M5-ZxW" secondAttribute="top" id="Pzh-Hw-C4y"/>
+                        <constraint firstAttribute="trailing" secondItem="qyQ-Bx-JPh" secondAttribute="trailing" constant="8" id="g8n-Bf-bcg"/>
+                        <constraint firstAttribute="height" constant="70" id="u6T-Ai-UK8"/>
+                        <constraint firstItem="jYX-fc-M9T" firstAttribute="leading" secondItem="FH7-M5-ZxW" secondAttribute="leading" constant="8" id="x07-L4-mI3"/>
+                    </constraints>
+                </view>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="dwo-Q2-4o8">
+                    <rect key="frame" x="0.0" y="88" width="375" height="509"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstItem="dwo-Q2-4o8" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="4pr-yN-35A"/>
+                <constraint firstItem="5fq-aV-sfw" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="44" id="Dkm-S3-qJE"/>
+                <constraint firstItem="FH7-M5-ZxW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GQx-lP-j6r"/>
+                <constraint firstAttribute="trailing" secondItem="5fq-aV-sfw" secondAttribute="trailing" id="PvA-sG-ChM"/>
+                <constraint firstItem="5fq-aV-sfw" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="Zwh-QN-jnA"/>
+                <constraint firstItem="dwo-Q2-4o8" firstAttribute="top" secondItem="5fq-aV-sfw" secondAttribute="bottom" id="dyI-S3-voY"/>
+                <constraint firstAttribute="trailing" secondItem="dwo-Q2-4o8" secondAttribute="trailing" id="nU6-If-EXn"/>
+                <constraint firstAttribute="trailing" secondItem="FH7-M5-ZxW" secondAttribute="trailing" id="tcg-Ql-Kg0"/>
+                <constraint firstAttribute="bottom" secondItem="FH7-M5-ZxW" secondAttribute="bottom" id="yLx-nA-3A6"/>
+                <constraint firstItem="FH7-M5-ZxW" firstAttribute="top" secondItem="dwo-Q2-4o8" secondAttribute="bottom" id="yV9-St-akx"/>
+            </constraints>
+            <connections>
+                <outlet property="btnOK" destination="qyQ-Bx-JPh" id="Z8M-c7-zD4"/>
+                <outlet property="tableView" destination="dwo-Q2-4o8" id="VWW-vu-3R4"/>
+                <outletCollection property="gestureRecognizers" destination="t4M-mq-Avl" appends="YES" id="hnX-KI-csF"/>
+            </connections>
+            <point key="canvasLocation" x="34.399999999999999" y="76.011994002998506"/>
+        </view>
+        <tapGestureRecognizer numberOfTapsRequired="2" id="t4M-mq-Avl">
+            <connections>
+                <action selector="confirmChoose:" destination="iN0-l3-epB" id="yrg-zy-Vuu"/>
+                <outlet property="delegate" destination="dwo-Q2-4o8" id="oXL-hd-Nfh"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>

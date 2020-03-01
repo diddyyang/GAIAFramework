@@ -7,9 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E14919F240B973400E432F9 /* GAIAHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E14919D240B973400E432F9 /* GAIAHTTPRequest.h */; };
+		0E1491A0240B973400E432F9 /* GAIAHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E14919E240B973400E432F9 /* GAIAHTTPRequest.m */; };
+		0E1491A7240B9FD100E432F9 /* LocalStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1491A5240B9FD100E432F9 /* LocalStorage.h */; };
+		0E1491A8240B9FD100E432F9 /* LocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1491A6240B9FD100E432F9 /* LocalStorage.m */; };
+		0E1491AB240BA6F100E432F9 /* JSONUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1491A9240BA6F100E432F9 /* JSONUtil.h */; };
+		0E1491AC240BA6F100E432F9 /* JSONUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1491AA240BA6F100E432F9 /* JSONUtil.m */; };
 		0E2E8C3D240B862A001EE44D /* GAIAFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2E8C33240B862A001EE44D /* GAIAFramework.framework */; };
 		0E2E8C42240B862B001EE44D /* GAIAFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C41240B862A001EE44D /* GAIAFrameworkTests.m */; };
 		0E2E8C44240B862B001EE44D /* GAIAFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C36240B862A001EE44D /* GAIAFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E2E8C5F240B90E2001EE44D /* DictionaryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C4F240B90E2001EE44D /* DictionaryManager.h */; };
+		0E2E8C60240B90E2001EE44D /* FilenameUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C50240B90E2001EE44D /* FilenameUtils.h */; };
+		0E2E8C61240B90E2001EE44D /* AnimationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C51240B90E2001EE44D /* AnimationUtil.m */; };
+		0E2E8C62240B90E2001EE44D /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C52240B90E2001EE44D /* Log.h */; };
+		0E2E8C64240B90E2001EE44D /* FilenameUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C54240B90E2001EE44D /* FilenameUtils.m */; };
+		0E2E8C65240B90E2001EE44D /* DictionaryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C55240B90E2001EE44D /* DictionaryManager.m */; };
+		0E2E8C66240B90E2001EE44D /* AnimationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C56240B90E2001EE44D /* AnimationUtil.h */; };
+		0E2E8C67240B90E2001EE44D /* DictionaryItemPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C58240B90E2001EE44D /* DictionaryItemPickerView.h */; };
+		0E2E8C68240B90E2001EE44D /* DictionaryItemPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2E8C59240B90E2001EE44D /* DictionaryItemPickerView.xib */; };
+		0E2E8C69240B90E2001EE44D /* DictionaryItemPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C5A240B90E2001EE44D /* DictionaryItemPickerView.m */; };
+		0E2E8C6A240B90E2001EE44D /* DictionaryProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C5C240B90E2001EE44D /* DictionaryProxy.h */; };
+		0E2E8C6B240B90E2001EE44D /* DictionaryProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C5D240B90E2001EE44D /* DictionaryProxy.m */; };
+		0E2E8C72240B93EB001EE44D /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C6D240B93EA001EE44D /* Result.h */; };
+		0E2E8C74240B93EB001EE44D /* GAIANetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C6F240B93EA001EE44D /* GAIANetwork.h */; };
+		0E2E8C76240B93EB001EE44D /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C71240B93EA001EE44D /* Result.m */; };
+		420944D7A3ACE677356C0D99 /* libPods-GAIAFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E214C1728DCA8A3407AA090 /* libPods-GAIAFramework.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,12 +45,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E14919D240B973400E432F9 /* GAIAHTTPRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIAHTTPRequest.h; sourceTree = "<group>"; };
+		0E14919E240B973400E432F9 /* GAIAHTTPRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GAIAHTTPRequest.m; sourceTree = "<group>"; };
+		0E1491A5240B9FD100E432F9 /* LocalStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalStorage.h; sourceTree = "<group>"; };
+		0E1491A6240B9FD100E432F9 /* LocalStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalStorage.m; sourceTree = "<group>"; };
+		0E1491A9240BA6F100E432F9 /* JSONUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSONUtil.h; sourceTree = "<group>"; };
+		0E1491AA240BA6F100E432F9 /* JSONUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONUtil.m; sourceTree = "<group>"; };
 		0E2E8C33240B862A001EE44D /* GAIAFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GAIAFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2E8C36240B862A001EE44D /* GAIAFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAIAFramework.h; sourceTree = "<group>"; };
 		0E2E8C37240B862A001EE44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0E2E8C3C240B862A001EE44D /* GAIAFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GAIAFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E2E8C41240B862A001EE44D /* GAIAFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GAIAFrameworkTests.m; sourceTree = "<group>"; };
 		0E2E8C43240B862B001EE44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E2E8C4F240B90E2001EE44D /* DictionaryManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryManager.h; sourceTree = "<group>"; };
+		0E2E8C50240B90E2001EE44D /* FilenameUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilenameUtils.h; sourceTree = "<group>"; };
+		0E2E8C51240B90E2001EE44D /* AnimationUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimationUtil.m; sourceTree = "<group>"; };
+		0E2E8C52240B90E2001EE44D /* Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Log.h; sourceTree = "<group>"; };
+		0E2E8C54240B90E2001EE44D /* FilenameUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilenameUtils.m; sourceTree = "<group>"; };
+		0E2E8C55240B90E2001EE44D /* DictionaryManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryManager.m; sourceTree = "<group>"; };
+		0E2E8C56240B90E2001EE44D /* AnimationUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimationUtil.h; sourceTree = "<group>"; };
+		0E2E8C58240B90E2001EE44D /* DictionaryItemPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryItemPickerView.h; sourceTree = "<group>"; };
+		0E2E8C59240B90E2001EE44D /* DictionaryItemPickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DictionaryItemPickerView.xib; sourceTree = "<group>"; };
+		0E2E8C5A240B90E2001EE44D /* DictionaryItemPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryItemPickerView.m; sourceTree = "<group>"; };
+		0E2E8C5C240B90E2001EE44D /* DictionaryProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DictionaryProxy.h; sourceTree = "<group>"; };
+		0E2E8C5D240B90E2001EE44D /* DictionaryProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DictionaryProxy.m; sourceTree = "<group>"; };
+		0E2E8C6D240B93EA001EE44D /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
+		0E2E8C6F240B93EA001EE44D /* GAIANetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIANetwork.h; sourceTree = "<group>"; };
+		0E2E8C71240B93EA001EE44D /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
+		4E214C1728DCA8A3407AA090 /* libPods-GAIAFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GAIAFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57B5ED9E79D7A3D969612E41 /* Pods-GAIAFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAIAFramework.debug.xcconfig"; path = "Target Support Files/Pods-GAIAFramework/Pods-GAIAFramework.debug.xcconfig"; sourceTree = "<group>"; };
+		CEAB7E6336DB305C68A109DE /* Pods-GAIAFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAIAFramework.release.xcconfig"; path = "Target Support Files/Pods-GAIAFramework/Pods-GAIAFramework.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				420944D7A3ACE677356C0D99 /* libPods-GAIAFramework.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +103,8 @@
 				0E2E8C35240B862A001EE44D /* GAIAFramework */,
 				0E2E8C40240B862A001EE44D /* GAIAFrameworkTests */,
 				0E2E8C34240B862A001EE44D /* Products */,
+				C0B3F1B7DBD5A785075E4F59 /* Pods */,
+				CB093A6A0A9DD6E9406F6ED5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -73,6 +122,10 @@
 			children = (
 				0E2E8C36240B862A001EE44D /* GAIAFramework.h */,
 				0E2E8C37240B862A001EE44D /* Info.plist */,
+				0E2E8C6C240B93EA001EE44D /* Networking */,
+				0E2E8C5B240B90E2001EE44D /* Proxy */,
+				0E2E8C4D240B90E2001EE44D /* Utils */,
+				0E2E8C57240B90E2001EE44D /* Views */,
 			);
 			path = GAIAFramework;
 			sourceTree = "<group>";
@@ -86,6 +139,72 @@
 			path = GAIAFrameworkTests;
 			sourceTree = "<group>";
 		};
+		0E2E8C4D240B90E2001EE44D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0E2E8C52240B90E2001EE44D /* Log.h */,
+				0E2E8C50240B90E2001EE44D /* FilenameUtils.h */,
+				0E2E8C54240B90E2001EE44D /* FilenameUtils.m */,
+				0E2E8C56240B90E2001EE44D /* AnimationUtil.h */,
+				0E2E8C51240B90E2001EE44D /* AnimationUtil.m */,
+				0E2E8C4F240B90E2001EE44D /* DictionaryManager.h */,
+				0E2E8C55240B90E2001EE44D /* DictionaryManager.m */,
+				0E1491A9240BA6F100E432F9 /* JSONUtil.h */,
+				0E1491AA240BA6F100E432F9 /* JSONUtil.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0E2E8C57240B90E2001EE44D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E2E8C58240B90E2001EE44D /* DictionaryItemPickerView.h */,
+				0E2E8C5A240B90E2001EE44D /* DictionaryItemPickerView.m */,
+				0E2E8C59240B90E2001EE44D /* DictionaryItemPickerView.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0E2E8C5B240B90E2001EE44D /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				0E2E8C5C240B90E2001EE44D /* DictionaryProxy.h */,
+				0E2E8C5D240B90E2001EE44D /* DictionaryProxy.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
+		0E2E8C6C240B93EA001EE44D /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				0E1491A5240B9FD100E432F9 /* LocalStorage.h */,
+				0E1491A6240B9FD100E432F9 /* LocalStorage.m */,
+				0E2E8C6F240B93EA001EE44D /* GAIANetwork.h */,
+				0E2E8C6D240B93EA001EE44D /* Result.h */,
+				0E2E8C71240B93EA001EE44D /* Result.m */,
+				0E14919D240B973400E432F9 /* GAIAHTTPRequest.h */,
+				0E14919E240B973400E432F9 /* GAIAHTTPRequest.m */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		C0B3F1B7DBD5A785075E4F59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57B5ED9E79D7A3D969612E41 /* Pods-GAIAFramework.debug.xcconfig */,
+				CEAB7E6336DB305C68A109DE /* Pods-GAIAFramework.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CB093A6A0A9DD6E9406F6ED5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E214C1728DCA8A3407AA090 /* libPods-GAIAFramework.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -93,7 +212,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2E8C67240B90E2001EE44D /* DictionaryItemPickerView.h in Headers */,
+				0E2E8C74240B93EB001EE44D /* GAIANetwork.h in Headers */,
+				0E2E8C5F240B90E2001EE44D /* DictionaryManager.h in Headers */,
+				0E2E8C62240B90E2001EE44D /* Log.h in Headers */,
+				0E1491AB240BA6F100E432F9 /* JSONUtil.h in Headers */,
+				0E2E8C66240B90E2001EE44D /* AnimationUtil.h in Headers */,
 				0E2E8C44240B862B001EE44D /* GAIAFramework.h in Headers */,
+				0E14919F240B973400E432F9 /* GAIAHTTPRequest.h in Headers */,
+				0E2E8C60240B90E2001EE44D /* FilenameUtils.h in Headers */,
+				0E1491A7240B9FD100E432F9 /* LocalStorage.h in Headers */,
+				0E2E8C6A240B90E2001EE44D /* DictionaryProxy.h in Headers */,
+				0E2E8C72240B93EB001EE44D /* Result.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E2E8C47240B862B001EE44D /* Build configuration list for PBXNativeTarget "GAIAFramework" */;
 			buildPhases = (
+				8BE2A7E63B4101B61590A005 /* [CP] Check Pods Manifest.lock */,
 				0E2E8C2E240B862A001EE44D /* Headers */,
 				0E2E8C2F240B862A001EE44D /* Sources */,
 				0E2E8C30240B862A001EE44D /* Frameworks */,
@@ -177,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2E8C68240B90E2001EE44D /* DictionaryItemPickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -189,11 +321,45 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8BE2A7E63B4101B61590A005 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GAIAFramework-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E2E8C2F240B862A001EE44D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E2E8C6B240B90E2001EE44D /* DictionaryProxy.m in Sources */,
+				0E2E8C61240B90E2001EE44D /* AnimationUtil.m in Sources */,
+				0E1491AC240BA6F100E432F9 /* JSONUtil.m in Sources */,
+				0E2E8C76240B93EB001EE44D /* Result.m in Sources */,
+				0E1491A8240B9FD100E432F9 /* LocalStorage.m in Sources */,
+				0E2E8C69240B90E2001EE44D /* DictionaryItemPickerView.m in Sources */,
+				0E2E8C64240B90E2001EE44D /* FilenameUtils.m in Sources */,
+				0E2E8C65240B90E2001EE44D /* DictionaryManager.m in Sources */,
+				0E1491A0240B973400E432F9 /* GAIAHTTPRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,8 +500,10 @@
 		};
 		0E2E8C48240B862B001EE44D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B5ED9E79D7A3D969612E41 /* Pods-GAIAFramework.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 439J8TXBZ5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -348,6 +516,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.unsee.ios.GAIAFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -357,8 +526,10 @@
 		};
 		0E2E8C49240B862B001EE44D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEAB7E6336DB305C68A109DE /* Pods-GAIAFramework.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 439J8TXBZ5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -371,6 +542,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACH_O_TYPE = staticlib;
 				PRODUCT_BUNDLE_IDENTIFIER = com.unsee.ios.GAIAFramework;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
