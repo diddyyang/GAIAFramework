@@ -7,28 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E14919F240B973400E432F9 /* GAIAHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E14919D240B973400E432F9 /* GAIAHTTPRequest.h */; };
+		0E14919F240B973400E432F9 /* GAIAHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E14919D240B973400E432F9 /* GAIAHTTPRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E1491A0240B973400E432F9 /* GAIAHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E14919E240B973400E432F9 /* GAIAHTTPRequest.m */; };
-		0E1491A7240B9FD100E432F9 /* LocalStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1491A5240B9FD100E432F9 /* LocalStorage.h */; };
+		0E1491A7240B9FD100E432F9 /* LocalStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1491A5240B9FD100E432F9 /* LocalStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E1491A8240B9FD100E432F9 /* LocalStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1491A6240B9FD100E432F9 /* LocalStorage.m */; };
-		0E1491AB240BA6F100E432F9 /* JSONUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1491A9240BA6F100E432F9 /* JSONUtil.h */; };
+		0E1491AB240BA6F100E432F9 /* JSONUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E1491A9240BA6F100E432F9 /* JSONUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E1491AC240BA6F100E432F9 /* JSONUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1491AA240BA6F100E432F9 /* JSONUtil.m */; };
 		0E2E8C3D240B862A001EE44D /* GAIAFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2E8C33240B862A001EE44D /* GAIAFramework.framework */; };
 		0E2E8C42240B862B001EE44D /* GAIAFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C41240B862A001EE44D /* GAIAFrameworkTests.m */; };
 		0E2E8C44240B862B001EE44D /* GAIAFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C36240B862A001EE44D /* GAIAFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E2E8C5F240B90E2001EE44D /* DictionaryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C4F240B90E2001EE44D /* DictionaryManager.h */; };
-		0E2E8C60240B90E2001EE44D /* FilenameUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C50240B90E2001EE44D /* FilenameUtils.h */; };
+		0E2E8C5F240B90E2001EE44D /* DictionaryManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C4F240B90E2001EE44D /* DictionaryManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E2E8C60240B90E2001EE44D /* FilenameUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C50240B90E2001EE44D /* FilenameUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E2E8C61240B90E2001EE44D /* AnimationUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C51240B90E2001EE44D /* AnimationUtil.m */; };
-		0E2E8C62240B90E2001EE44D /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C52240B90E2001EE44D /* Log.h */; };
+		0E2E8C62240B90E2001EE44D /* Log.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C52240B90E2001EE44D /* Log.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E2E8C64240B90E2001EE44D /* FilenameUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C54240B90E2001EE44D /* FilenameUtils.m */; };
 		0E2E8C65240B90E2001EE44D /* DictionaryManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C55240B90E2001EE44D /* DictionaryManager.m */; };
-		0E2E8C66240B90E2001EE44D /* AnimationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C56240B90E2001EE44D /* AnimationUtil.h */; };
-		0E2E8C67240B90E2001EE44D /* DictionaryItemPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C58240B90E2001EE44D /* DictionaryItemPickerView.h */; };
+		0E2E8C66240B90E2001EE44D /* AnimationUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C56240B90E2001EE44D /* AnimationUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E2E8C67240B90E2001EE44D /* DictionaryItemPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C58240B90E2001EE44D /* DictionaryItemPickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E2E8C68240B90E2001EE44D /* DictionaryItemPickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E2E8C59240B90E2001EE44D /* DictionaryItemPickerView.xib */; };
 		0E2E8C69240B90E2001EE44D /* DictionaryItemPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C5A240B90E2001EE44D /* DictionaryItemPickerView.m */; };
-		0E2E8C6A240B90E2001EE44D /* DictionaryProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C5C240B90E2001EE44D /* DictionaryProxy.h */; };
+		0E2E8C6A240B90E2001EE44D /* DictionaryProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C5C240B90E2001EE44D /* DictionaryProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E2E8C6B240B90E2001EE44D /* DictionaryProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C5D240B90E2001EE44D /* DictionaryProxy.m */; };
-		0E2E8C72240B93EB001EE44D /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C6D240B93EA001EE44D /* Result.h */; };
+		0E2E8C72240B93EB001EE44D /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C6D240B93EA001EE44D /* Result.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E2E8C74240B93EB001EE44D /* GAIANetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C6F240B93EA001EE44D /* GAIANetwork.h */; };
 		0E2E8C76240B93EB001EE44D /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C71240B93EA001EE44D /* Result.m */; };
 		420944D7A3ACE677356C0D99 /* libPods-GAIAFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E214C1728DCA8A3407AA090 /* libPods-GAIAFramework.a */; };
@@ -212,18 +212,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E2E8C67240B90E2001EE44D /* DictionaryItemPickerView.h in Headers */,
-				0E2E8C74240B93EB001EE44D /* GAIANetwork.h in Headers */,
-				0E2E8C5F240B90E2001EE44D /* DictionaryManager.h in Headers */,
-				0E2E8C62240B90E2001EE44D /* Log.h in Headers */,
 				0E1491AB240BA6F100E432F9 /* JSONUtil.h in Headers */,
+				0E2E8C67240B90E2001EE44D /* DictionaryItemPickerView.h in Headers */,
+				0E2E8C5F240B90E2001EE44D /* DictionaryManager.h in Headers */,
 				0E2E8C66240B90E2001EE44D /* AnimationUtil.h in Headers */,
-				0E2E8C44240B862B001EE44D /* GAIAFramework.h in Headers */,
-				0E14919F240B973400E432F9 /* GAIAHTTPRequest.h in Headers */,
 				0E2E8C60240B90E2001EE44D /* FilenameUtils.h in Headers */,
-				0E1491A7240B9FD100E432F9 /* LocalStorage.h in Headers */,
+				0E2E8C62240B90E2001EE44D /* Log.h in Headers */,
 				0E2E8C6A240B90E2001EE44D /* DictionaryProxy.h in Headers */,
 				0E2E8C72240B93EB001EE44D /* Result.h in Headers */,
+				0E1491A7240B9FD100E432F9 /* LocalStorage.h in Headers */,
+				0E14919F240B973400E432F9 /* GAIAHTTPRequest.h in Headers */,
+				0E2E8C74240B93EB001EE44D /* GAIANetwork.h in Headers */,
+				0E2E8C44240B862B001EE44D /* GAIAFramework.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -502,6 +502,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 57B5ED9E79D7A3D969612E41 /* Pods-GAIAFramework.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
@@ -528,6 +529,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CEAB7E6336DB305C68A109DE /* Pods-GAIAFramework.release.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEAD_CODE_STRIPPING = NO;
 				DEFINES_MODULE = YES;
