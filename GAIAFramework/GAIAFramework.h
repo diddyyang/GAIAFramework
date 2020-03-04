@@ -8,6 +8,15 @@
 
 #import <Foundation/Foundation.h>
 
+#ifndef _GAIAFRAKEWORK_
+    #define _GAIAFRAKEWORK_
+
+    #import "Result.h"
+    #import "GAIAHTTPRequest.h"
+    #import "JSONUtil.h"
+
+#endif /* _AFNETWORKING_ */
+
 //! Project version number for GAIAFramework.
 FOUNDATION_EXPORT double GAIAFrameworkVersionNumber;
 
