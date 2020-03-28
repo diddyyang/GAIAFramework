@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="167" id="KGk-i7-Jjw" customClass="HTMLViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="452" height="167"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="452" height="166.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Jv-Bs-0LZ">
+                        <rect key="frame" x="0.0" y="0.0" width="452" height="21"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="abc@abc" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bnr-i5-sBC">
+                                <rect key="frame" x="0.0" y="0.0" width="452" height="21"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                <color key="textColor" white="0.75" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WxL-2X-Psi">
+                                <rect key="frame" x="372" y="0.0" width="80" height="21"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="right" contentVerticalAlignment="center" adjustsImageSizeForAccessibilityContentSizeCategory="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1na-cP-Kej">
+                                        <rect key="frame" x="0.0" y="0.0" width="75" height="21"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                                        <state key="normal" title="拨打电话">
+                                            <color key="titleColor" red="0.0" green="0.58980089430000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="onMakePhoneCall:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="pMX-Qg-cTk"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="phone_call_64px.png" translatesAutoresizingMaskIntoConstraints="NO" id="tt8-3W-4BY">
+                                        <rect key="frame" x="0.0" y="0.0" width="21" height="21"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="21" id="Abj-SV-pAt"/>
+                                            <constraint firstAttribute="height" constant="21" id="mPp-3d-tvF"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3GF-hH-3Pz"/>
+                                    <constraint firstItem="1na-cP-Kej" firstAttribute="leading" secondItem="WxL-2X-Psi" secondAttribute="leading" id="5s1-Kf-HWW"/>
+                                    <constraint firstAttribute="trailing" secondItem="1na-cP-Kej" secondAttribute="trailing" constant="5" id="9Fr-3k-9qP"/>
+                                    <constraint firstItem="1na-cP-Kej" firstAttribute="top" secondItem="WxL-2X-Psi" secondAttribute="top" id="JMg-ee-JFu"/>
+                                    <constraint firstItem="tt8-3W-4BY" firstAttribute="top" secondItem="WxL-2X-Psi" secondAttribute="top" id="Yw3-vs-vFu"/>
+                                    <constraint firstAttribute="width" constant="80" id="hYt-eQ-RXn"/>
+                                    <constraint firstAttribute="bottom" secondItem="1na-cP-Kej" secondAttribute="bottom" id="ldi-Ml-Ms0"/>
+                                    <constraint firstItem="tt8-3W-4BY" firstAttribute="leading" secondItem="WxL-2X-Psi" secondAttribute="leading" id="mDj-Bh-r0e"/>
+                                    <constraint firstAttribute="bottom" secondItem="tt8-3W-4BY" secondAttribute="bottom" id="yMb-5l-HAf"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="WxL-2X-Psi" secondAttribute="bottom" id="4r8-AK-PeC"/>
+                            <constraint firstItem="WxL-2X-Psi" firstAttribute="top" secondItem="9Jv-Bs-0LZ" secondAttribute="top" id="7de-HB-n41"/>
+                            <constraint firstItem="Bnr-i5-sBC" firstAttribute="top" secondItem="9Jv-Bs-0LZ" secondAttribute="top" id="EXp-DM-y1l"/>
+                            <constraint firstAttribute="trailing" secondItem="WxL-2X-Psi" secondAttribute="trailing" id="Rk5-Mb-mws"/>
+                            <constraint firstAttribute="trailing" secondItem="Bnr-i5-sBC" secondAttribute="trailing" id="eMA-CL-dDm"/>
+                            <constraint firstAttribute="height" constant="21" id="fXt-yv-ZVs"/>
+                            <constraint firstAttribute="bottom" secondItem="Bnr-i5-sBC" secondAttribute="bottom" id="gBC-t8-XQ5"/>
+                            <constraint firstItem="Bnr-i5-sBC" firstAttribute="leading" secondItem="9Jv-Bs-0LZ" secondAttribute="leading" id="wsx-cG-Rcd"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FeY-Ej-KYt">
+                        <rect key="frame" x="0.0" y="21" width="452" height="115.5"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text=" 2 3 4" translatesAutoresizingMaskIntoConstraints="NO" id="aqf-CQ-ZuR">
+                                <rect key="frame" x="0.0" y="0.0" width="422" height="115.5"/>
+                                <color key="backgroundColor" red="0.19273786609999999" green="0.55169999599999997" blue="0.049286843449999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" address="YES" calendarEvent="YES"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1P-w6-xyd">
+                                <rect key="frame" x="423" y="44" width="28" height="28"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="Eic-MZ-I8g"/>
+                                    <constraint firstAttribute="width" constant="28" id="spL-t1-Jrx"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="error_64px.png"/>
+                                <connections>
+                                    <action selector="onResendMessage:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Z38-1e-86V"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="aqf-CQ-ZuR" secondAttribute="trailing" constant="30" id="NUM-Qq-wBs"/>
+                            <constraint firstAttribute="bottom" secondItem="aqf-CQ-ZuR" secondAttribute="bottom" id="WhV-9B-2Hg"/>
+                            <constraint firstAttribute="trailing" secondItem="d1P-w6-xyd" secondAttribute="trailing" constant="1" id="gLD-2Z-byT"/>
+                            <constraint firstItem="aqf-CQ-ZuR" firstAttribute="leading" secondItem="FeY-Ej-KYt" secondAttribute="leading" id="iwS-ML-da7"/>
+                            <constraint firstItem="aqf-CQ-ZuR" firstAttribute="top" secondItem="FeY-Ej-KYt" secondAttribute="top" id="muS-3Z-wwy"/>
+                            <constraint firstItem="d1P-w6-xyd" firstAttribute="centerY" secondItem="FeY-Ej-KYt" secondAttribute="centerY" id="oWe-CU-hYb"/>
+                        </constraints>
+                    </view>
+                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UyZ-Kp-0Mg">
+                        <rect key="frame" x="0.0" y="136" width="452" height="31"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="svr-8e-B1j"/>
+                        </constraints>
+                    </scrollView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FeY-Ej-KYt" firstAttribute="top" secondItem="9Jv-Bs-0LZ" secondAttribute="bottom" id="2Ly-7Y-myr"/>
+                    <constraint firstItem="UyZ-Kp-0Mg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="3B9-Ne-vjz"/>
+                    <constraint firstItem="9Jv-Bs-0LZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="A0X-1P-TS9"/>
+                    <constraint firstItem="9Jv-Bs-0LZ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="BDR-QH-ckL"/>
+                    <constraint firstAttribute="trailing" secondItem="9Jv-Bs-0LZ" secondAttribute="trailing" id="VGF-4d-mou"/>
+                    <constraint firstAttribute="trailing" secondItem="UyZ-Kp-0Mg" secondAttribute="trailing" id="dN5-We-hre"/>
+                    <constraint firstItem="FeY-Ej-KYt" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="eTD-iR-eD3"/>
+                    <constraint firstAttribute="trailing" secondItem="FeY-Ej-KYt" secondAttribute="trailing" id="otr-b6-2ZD"/>
+                    <constraint firstAttribute="bottom" secondItem="FeY-Ej-KYt" secondAttribute="bottom" constant="30" id="t5Q-QY-L8l"/>
+                    <constraint firstAttribute="bottom" secondItem="UyZ-Kp-0Mg" secondAttribute="bottom" id="xQr-Bm-CAC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <connections>
+                <outlet property="btnError" destination="d1P-w6-xyd" id="Q2i-Xp-m4Q"/>
+                <outlet property="constraintErrorSpace" destination="NUM-Qq-wBs" id="31E-La-cRh"/>
+                <outlet property="constraintTextBottom" destination="t5Q-QY-L8l" id="6MX-vd-Eet"/>
+                <outlet property="lblSender" destination="Bnr-i5-sBC" id="6u1-WC-s1X"/>
+                <outlet property="scrollview4Buttons" destination="UyZ-Kp-0Mg" id="Zav-k4-ehj"/>
+                <outlet property="tvHTML" destination="aqf-CQ-ZuR" id="1F7-kz-6cQ"/>
+                <outlet property="viewPhone" destination="WxL-2X-Psi" id="ITq-4r-2d2"/>
+            </connections>
+            <point key="canvasLocation" x="234.78260869565219" y="149.66517857142856"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="error_64px.png" width="64" height="64"/>
+        <image name="phone_call_64px.png" width="18.141733169555664" height="18.141733169555664"/>
+    </resources>
+</document>

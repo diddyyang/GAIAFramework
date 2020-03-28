@@ -31,6 +31,36 @@
 		0E2E8C72240B93EB001EE44D /* Result.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C6D240B93EA001EE44D /* Result.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0E2E8C74240B93EB001EE44D /* GAIANetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2E8C6F240B93EA001EE44D /* GAIANetwork.h */; };
 		0E2E8C76240B93EB001EE44D /* Result.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2E8C71240B93EA001EE44D /* Result.m */; };
+		0E7193D7242F29CE00A9F6DA /* SeparatorViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7193B7242F29CE00A9F6DA /* SeparatorViewCell.h */; };
+		0E7193D8242F29CE00A9F6DA /* ImageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7193B8242F29CE00A9F6DA /* ImageViewCell.m */; };
+		0E7193D9242F29CE00A9F6DA /* HTMLViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7193B9242F29CE00A9F6DA /* HTMLViewCell.h */; };
+		0E7193DA242F29CE00A9F6DA /* SeparatorViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E7193BA242F29CE00A9F6DA /* SeparatorViewCell.xib */; };
+		0E7193DB242F29CE00A9F6DA /* MessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7193BB242F29CE00A9F6DA /* MessageCell.h */; };
+		0E7193DC242F29CE00A9F6DA /* ImageViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E7193BC242F29CE00A9F6DA /* ImageViewCell.xib */; };
+		0E7193DD242F29CE00A9F6DA /* HTMLViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E7193BD242F29CE00A9F6DA /* HTMLViewCell.xib */; };
+		0E7193DE242F29CE00A9F6DA /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7193BE242F29CE00A9F6DA /* MessageCell.m */; };
+		0E7193DF242F29CE00A9F6DA /* HTMLViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7193BF242F29CE00A9F6DA /* HTMLViewCell.m */; };
+		0E7193E0242F29CE00A9F6DA /* ImageViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7193C0242F29CE00A9F6DA /* ImageViewCell.h */; };
+		0E7193E1242F29CE00A9F6DA /* SeparatorViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7193C1242F29CE00A9F6DA /* SeparatorViewCell.m */; };
+		0E7193E2242F29CE00A9F6DA /* ChatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E7193C2242F29CE00A9F6DA /* ChatViewController.xib */; };
+		0E7193E3242F29CE00A9F6DA /* mobile_64px.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7193C4242F29CE00A9F6DA /* mobile_64px.png */; };
+		0E7193E4242F29CE00A9F6DA /* close_96px.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7193C5242F29CE00A9F6DA /* close_96px.png */; };
+		0E7193E5242F29CE00A9F6DA /* upload_128.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7193C6242F29CE00A9F6DA /* upload_128.png */; };
+		0E7193E6242F29CE00A9F6DA /* error_64px.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7193C7242F29CE00A9F6DA /* error_64px.png */; };
+		0E7193E7242F29CE00A9F6DA /* phone_call_64px.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7193C8242F29CE00A9F6DA /* phone_call_64px.png */; };
+		0E7193E8242F29CE00A9F6DA /* take_photo_64.png in Resources */ = {isa = PBXBuildFile; fileRef = 0E7193C9242F29CE00A9F6DA /* take_photo_64.png */; };
+		0E7193E9242F29CE00A9F6DA /* XMPPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7193CA242F29CE00A9F6DA /* XMPPConnection.m */; };
+		0E7193EA242F29CE00A9F6DA /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7193CB242F29CE00A9F6DA /* ChatViewController.m */; };
+		0E7193EB242F29CE00A9F6DA /* XMPPConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7193CC242F29CE00A9F6DA /* XMPPConnection.h */; };
+		0E7193EC242F29CE00A9F6DA /* ChatContact.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7193CE242F29CE00A9F6DA /* ChatContact.m */; };
+		0E7193ED242F29CE00A9F6DA /* ChatMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7193CF242F29CE00A9F6DA /* ChatMessage.h */; };
+		0E7193EE242F29CE00A9F6DA /* MessageStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7193D0242F29CE00A9F6DA /* MessageStorage.h */; };
+		0E7193EF242F29CE00A9F6DA /* ChatMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7193D1242F29CE00A9F6DA /* ChatMenu.m */; };
+		0E7193F0242F29CE00A9F6DA /* ChatContact.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7193D2242F29CE00A9F6DA /* ChatContact.h */; };
+		0E7193F1242F29CE00A9F6DA /* MessageStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7193D3242F29CE00A9F6DA /* MessageStorage.m */; };
+		0E7193F2242F29CE00A9F6DA /* ChatMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E7193D4242F29CE00A9F6DA /* ChatMessage.m */; };
+		0E7193F3242F29CE00A9F6DA /* ChatMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7193D5242F29CE00A9F6DA /* ChatMenu.h */; };
+		0E7193F4242F29CE00A9F6DA /* ChatViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E7193D6242F29CE00A9F6DA /* ChatViewController.h */; };
 		420944D7A3ACE677356C0D99 /* libPods-GAIAFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E214C1728DCA8A3407AA090 /* libPods-GAIAFramework.a */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +102,36 @@
 		0E2E8C6D240B93EA001EE44D /* Result.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Result.h; sourceTree = "<group>"; };
 		0E2E8C6F240B93EA001EE44D /* GAIANetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIANetwork.h; sourceTree = "<group>"; };
 		0E2E8C71240B93EA001EE44D /* Result.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Result.m; sourceTree = "<group>"; };
+		0E7193B7242F29CE00A9F6DA /* SeparatorViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SeparatorViewCell.h; sourceTree = "<group>"; };
+		0E7193B8242F29CE00A9F6DA /* ImageViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewCell.m; sourceTree = "<group>"; };
+		0E7193B9242F29CE00A9F6DA /* HTMLViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLViewCell.h; sourceTree = "<group>"; };
+		0E7193BA242F29CE00A9F6DA /* SeparatorViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SeparatorViewCell.xib; sourceTree = "<group>"; };
+		0E7193BB242F29CE00A9F6DA /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		0E7193BC242F29CE00A9F6DA /* ImageViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewCell.xib; sourceTree = "<group>"; };
+		0E7193BD242F29CE00A9F6DA /* HTMLViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HTMLViewCell.xib; sourceTree = "<group>"; };
+		0E7193BE242F29CE00A9F6DA /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		0E7193BF242F29CE00A9F6DA /* HTMLViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLViewCell.m; sourceTree = "<group>"; };
+		0E7193C0242F29CE00A9F6DA /* ImageViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewCell.h; sourceTree = "<group>"; };
+		0E7193C1242F29CE00A9F6DA /* SeparatorViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SeparatorViewCell.m; sourceTree = "<group>"; };
+		0E7193C2242F29CE00A9F6DA /* ChatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatViewController.xib; sourceTree = "<group>"; };
+		0E7193C4242F29CE00A9F6DA /* mobile_64px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile_64px.png; sourceTree = "<group>"; };
+		0E7193C5242F29CE00A9F6DA /* close_96px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close_96px.png; sourceTree = "<group>"; };
+		0E7193C6242F29CE00A9F6DA /* upload_128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upload_128.png; sourceTree = "<group>"; };
+		0E7193C7242F29CE00A9F6DA /* error_64px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error_64px.png; sourceTree = "<group>"; };
+		0E7193C8242F29CE00A9F6DA /* phone_call_64px.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = phone_call_64px.png; sourceTree = "<group>"; };
+		0E7193C9242F29CE00A9F6DA /* take_photo_64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = take_photo_64.png; sourceTree = "<group>"; };
+		0E7193CA242F29CE00A9F6DA /* XMPPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMPPConnection.m; sourceTree = "<group>"; };
+		0E7193CB242F29CE00A9F6DA /* ChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatViewController.m; sourceTree = "<group>"; };
+		0E7193CC242F29CE00A9F6DA /* XMPPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMPPConnection.h; sourceTree = "<group>"; };
+		0E7193CE242F29CE00A9F6DA /* ChatContact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatContact.m; sourceTree = "<group>"; };
+		0E7193CF242F29CE00A9F6DA /* ChatMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMessage.h; sourceTree = "<group>"; };
+		0E7193D0242F29CE00A9F6DA /* MessageStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageStorage.h; sourceTree = "<group>"; };
+		0E7193D1242F29CE00A9F6DA /* ChatMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMenu.m; sourceTree = "<group>"; };
+		0E7193D2242F29CE00A9F6DA /* ChatContact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatContact.h; sourceTree = "<group>"; };
+		0E7193D3242F29CE00A9F6DA /* MessageStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageStorage.m; sourceTree = "<group>"; };
+		0E7193D4242F29CE00A9F6DA /* ChatMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatMessage.m; sourceTree = "<group>"; };
+		0E7193D5242F29CE00A9F6DA /* ChatMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatMenu.h; sourceTree = "<group>"; };
+		0E7193D6242F29CE00A9F6DA /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
 		4E214C1728DCA8A3407AA090 /* libPods-GAIAFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GAIAFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		57B5ED9E79D7A3D969612E41 /* Pods-GAIAFramework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAIAFramework.debug.xcconfig"; path = "Target Support Files/Pods-GAIAFramework/Pods-GAIAFramework.debug.xcconfig"; sourceTree = "<group>"; };
 		CEAB7E6336DB305C68A109DE /* Pods-GAIAFramework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAIAFramework.release.xcconfig"; path = "Target Support Files/Pods-GAIAFramework/Pods-GAIAFramework.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,6 +160,7 @@
 		0E2E8C29240B862A001EE44D = {
 			isa = PBXGroup;
 			children = (
+				0E7193B5242F29CE00A9F6DA /* XMPP */,
 				0E2E8C35240B862A001EE44D /* GAIAFramework */,
 				0E2E8C40240B862A001EE44D /* GAIAFrameworkTests */,
 				0E2E8C34240B862A001EE44D /* Products */,
@@ -188,6 +249,67 @@
 			path = Networking;
 			sourceTree = "<group>";
 		};
+		0E7193B5242F29CE00A9F6DA /* XMPP */ = {
+			isa = PBXGroup;
+			children = (
+				0E7193B6242F29CE00A9F6DA /* Cells */,
+				0E7193C2242F29CE00A9F6DA /* ChatViewController.xib */,
+				0E7193C3242F29CE00A9F6DA /* Resources */,
+				0E7193CA242F29CE00A9F6DA /* XMPPConnection.m */,
+				0E7193CB242F29CE00A9F6DA /* ChatViewController.m */,
+				0E7193CC242F29CE00A9F6DA /* XMPPConnection.h */,
+				0E7193CD242F29CE00A9F6DA /* Modules */,
+				0E7193D6242F29CE00A9F6DA /* ChatViewController.h */,
+			);
+			path = XMPP;
+			sourceTree = "<group>";
+		};
+		0E7193B6242F29CE00A9F6DA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				0E7193B7242F29CE00A9F6DA /* SeparatorViewCell.h */,
+				0E7193B8242F29CE00A9F6DA /* ImageViewCell.m */,
+				0E7193B9242F29CE00A9F6DA /* HTMLViewCell.h */,
+				0E7193BA242F29CE00A9F6DA /* SeparatorViewCell.xib */,
+				0E7193BB242F29CE00A9F6DA /* MessageCell.h */,
+				0E7193BC242F29CE00A9F6DA /* ImageViewCell.xib */,
+				0E7193BD242F29CE00A9F6DA /* HTMLViewCell.xib */,
+				0E7193BE242F29CE00A9F6DA /* MessageCell.m */,
+				0E7193BF242F29CE00A9F6DA /* HTMLViewCell.m */,
+				0E7193C0242F29CE00A9F6DA /* ImageViewCell.h */,
+				0E7193C1242F29CE00A9F6DA /* SeparatorViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		0E7193C3242F29CE00A9F6DA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E7193C4242F29CE00A9F6DA /* mobile_64px.png */,
+				0E7193C5242F29CE00A9F6DA /* close_96px.png */,
+				0E7193C6242F29CE00A9F6DA /* upload_128.png */,
+				0E7193C7242F29CE00A9F6DA /* error_64px.png */,
+				0E7193C8242F29CE00A9F6DA /* phone_call_64px.png */,
+				0E7193C9242F29CE00A9F6DA /* take_photo_64.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0E7193CD242F29CE00A9F6DA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				0E7193CE242F29CE00A9F6DA /* ChatContact.m */,
+				0E7193CF242F29CE00A9F6DA /* ChatMessage.h */,
+				0E7193D0242F29CE00A9F6DA /* MessageStorage.h */,
+				0E7193D1242F29CE00A9F6DA /* ChatMenu.m */,
+				0E7193D2242F29CE00A9F6DA /* ChatContact.h */,
+				0E7193D3242F29CE00A9F6DA /* MessageStorage.m */,
+				0E7193D4242F29CE00A9F6DA /* ChatMessage.m */,
+				0E7193D5242F29CE00A9F6DA /* ChatMenu.h */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		C0B3F1B7DBD5A785075E4F59 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,15 +334,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7193DB242F29CE00A9F6DA /* MessageCell.h in Headers */,
 				0E1491AB240BA6F100E432F9 /* JSONUtil.h in Headers */,
+				0E7193EE242F29CE00A9F6DA /* MessageStorage.h in Headers */,
 				0E2E8C67240B90E2001EE44D /* DictionaryItemPickerView.h in Headers */,
+				0E7193E0242F29CE00A9F6DA /* ImageViewCell.h in Headers */,
+				0E7193F4242F29CE00A9F6DA /* ChatViewController.h in Headers */,
+				0E7193EB242F29CE00A9F6DA /* XMPPConnection.h in Headers */,
+				0E7193D9242F29CE00A9F6DA /* HTMLViewCell.h in Headers */,
+				0E7193ED242F29CE00A9F6DA /* ChatMessage.h in Headers */,
 				0E2E8C5F240B90E2001EE44D /* DictionaryManager.h in Headers */,
 				0E2E8C66240B90E2001EE44D /* AnimationUtil.h in Headers */,
 				0E2E8C60240B90E2001EE44D /* FilenameUtils.h in Headers */,
+				0E7193F0242F29CE00A9F6DA /* ChatContact.h in Headers */,
 				0E2E8C62240B90E2001EE44D /* Log.h in Headers */,
 				0E2E8C6A240B90E2001EE44D /* DictionaryProxy.h in Headers */,
 				0E2E8C72240B93EB001EE44D /* Result.h in Headers */,
+				0E7193D7242F29CE00A9F6DA /* SeparatorViewCell.h in Headers */,
 				0E1491A7240B9FD100E432F9 /* LocalStorage.h in Headers */,
+				0E7193F3242F29CE00A9F6DA /* ChatMenu.h in Headers */,
 				0E14919F240B973400E432F9 /* GAIAHTTPRequest.h in Headers */,
 				0E2E8C74240B93EB001EE44D /* GAIANetwork.h in Headers */,
 				0E2E8C44240B862B001EE44D /* GAIAFramework.h in Headers */,
@@ -308,6 +440,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E7193E5242F29CE00A9F6DA /* upload_128.png in Resources */,
+				0E7193DA242F29CE00A9F6DA /* SeparatorViewCell.xib in Resources */,
+				0E7193E8242F29CE00A9F6DA /* take_photo_64.png in Resources */,
+				0E7193E6242F29CE00A9F6DA /* error_64px.png in Resources */,
+				0E7193E3242F29CE00A9F6DA /* mobile_64px.png in Resources */,
+				0E7193DD242F29CE00A9F6DA /* HTMLViewCell.xib in Resources */,
+				0E7193E4242F29CE00A9F6DA /* close_96px.png in Resources */,
+				0E7193DC242F29CE00A9F6DA /* ImageViewCell.xib in Resources */,
+				0E7193E2242F29CE00A9F6DA /* ChatViewController.xib in Resources */,
+				0E7193E7242F29CE00A9F6DA /* phone_call_64px.png in Resources */,
 				0E2E8C68240B90E2001EE44D /* DictionaryItemPickerView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,13 +495,23 @@
 			files = (
 				0E2E8C6B240B90E2001EE44D /* DictionaryProxy.m in Sources */,
 				0E2E8C61240B90E2001EE44D /* AnimationUtil.m in Sources */,
+				0E7193EA242F29CE00A9F6DA /* ChatViewController.m in Sources */,
+				0E7193D8242F29CE00A9F6DA /* ImageViewCell.m in Sources */,
+				0E7193EC242F29CE00A9F6DA /* ChatContact.m in Sources */,
+				0E7193E1242F29CE00A9F6DA /* SeparatorViewCell.m in Sources */,
 				0E1491AC240BA6F100E432F9 /* JSONUtil.m in Sources */,
 				0E2E8C76240B93EB001EE44D /* Result.m in Sources */,
+				0E7193DF242F29CE00A9F6DA /* HTMLViewCell.m in Sources */,
+				0E7193F2242F29CE00A9F6DA /* ChatMessage.m in Sources */,
 				0E1491A8240B9FD100E432F9 /* LocalStorage.m in Sources */,
+				0E7193E9242F29CE00A9F6DA /* XMPPConnection.m in Sources */,
 				0E2E8C69240B90E2001EE44D /* DictionaryItemPickerView.m in Sources */,
 				0E2E8C64240B90E2001EE44D /* FilenameUtils.m in Sources */,
+				0E7193F1242F29CE00A9F6DA /* MessageStorage.m in Sources */,
+				0E7193DE242F29CE00A9F6DA /* MessageCell.m in Sources */,
 				0E2E8C65240B90E2001EE44D /* DictionaryManager.m in Sources */,
 				0E1491A0240B973400E432F9 /* GAIAHTTPRequest.m in Sources */,
+				0E7193EF242F29CE00A9F6DA /* ChatMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +568,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
